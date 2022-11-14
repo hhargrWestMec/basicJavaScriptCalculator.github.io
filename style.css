@@ -1,0 +1,105 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#grad {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(320deg, red, #ecedef, #ecedef);
+
+}
+
+#buttonsMainDiv {
+    height: 60vh;
+    width: 30vw;
+    background-color: white;
+    margin-top: 27.5vh;
+    margin-left: 50vw;
+    position: absolute;
+}
+
+#outputMain {
+    background-color: red;
+    width: 30vw;
+    height: 22.5vh;
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: 10vh;
+    border-radius: 15px;
+}
+
+#outputText {
+    color: white;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 8vh;
+    margin-right: 1vw;
+    margin-top: 5vh;
+
+}
+
+#roundStyle {
+    height: 5vh;
+    width: 30vw;
+    background-color: white;
+    margin-top: 85vh;
+    margin-left: 50vw;  
+    position: absolute;
+    border-radius: 15px;
+}
+
+.buttonMain {
+    padding: 2vw;
+    border: 0px;
+    border-radius: 50%;
+    background-color: #ecedef;
+    color: #605d5d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    font-weight: bold;
+}
+
+#period, #sub {
+    padding-left: 2.2vw;
+    padding-right: 2.2vw;
+}
+
+#add, #sub, #div, #mult {
+    background-color: #cbccce;
+}
+
+#equal {
+    background-color: red;
+    color: white;
+}
+
+input:hover {
+    filter: brightness(0.8);
+}
+
+#titleBox {
+    height: 20vh;
+    width: 22vw;
+    position: absolute;
+    margin-left: 12vw;
+    margin-top: 20vh;
+}
+
+#titleText {
+    font-size: 8vh;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 5px black;
+
+}
+
+#paraText {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.8vh;
+    text-align: justify;
+
+}

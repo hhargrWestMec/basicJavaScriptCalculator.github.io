@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="grad">
+
+        <div id="titleBox">
+
+            <h1 id="titleText"> 
+                Javascript 
+                    <br> 
+                Calculator
+            </h1>
+            <p id="paraText">
+                This calculator can be used for small numbers only. It will round to the tenths power each time. There is no clear button because the 'Backspace' key has been used to clear the numbers. One click will remove the current number, and if you wish to reset the whole history, click twice. After each use, make sure to clear the history by hitting the 'Backspace' key on your keyboard. The number keys and operator keys can be used, but the 'Enter' key will not submit the answer. The 'Equal' key can be used to submit your answer. When the "TOO LARGE" message appears, you may continue by typing a new number. The 'Backspace' key will not clear this message.
+            </p>
+
+        </div>
+    
+        <div id="outputMain">
+
+            <h1 id="outputText"> </h1>
+
+        </div>
+
+        <div id="buttonsMainDiv">
+            <input type="button" value="1" class="buttonMain" id="num1" onclick="updateNumber(1);">
+            <input type="button" value="2" class="buttonMain" id="num2" onclick="updateNumber(2);">
+            <input type="button" value="3" class="buttonMain" id="num3" onclick="updateNumber(3);">
+            <input type="button" value="+" class="buttonMain" id="add" onclick="operation('+');">
+
+
+            <input type="button" value="4" class="buttonMain" id="num4" onclick="updateNumber(4);">
+            <input type="button" value="5" class="buttonMain" id="num5" onclick="updateNumber(5);">
+            <input type="button" value="6" class="buttonMain" id="num6" onclick="updateNumber(6);">
+            <input type="button" value="-" class="buttonMain" id="sub" onclick="operation('-');">
+
+
+            <input type="button" value="7" class="buttonMain" id="num7" onclick="updateNumber(7);">
+            <input type="button" value="8" class="buttonMain" id="num8" onclick="updateNumber(8);">
+            <input type="button" value="9" class="buttonMain" id="num9" onclick="updateNumber(9);">
+            <input type="button" value="x" class="buttonMain" id="mult" onclick="operation('*');">
+
+
+            <input type="button" value="." class="buttonMain" id="period" onclick="updateNumber('.');">
+            <input type="button" value="0" class="buttonMain" id="num0" onclick="updateNumber(0);">
+            <input type="button" value="=" class="buttonMain" id="equal" onclick="submit();">
+            <input type="button" value="&divide;" class="buttonMain" id="div" onclick="operation('/');">
+        </div>
+        <div id="roundStyle">
+
+        </div>
+        
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
